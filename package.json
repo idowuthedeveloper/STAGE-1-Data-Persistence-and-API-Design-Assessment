@@ -1,5 +1,5 @@
 {
-  "name": "STAGE 1 Data Persistence and API Design Assessment",
+  "name": "stage-1-data-persistence-and-api-design-assessment",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -15,7 +15,9 @@
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "response-time": "^2.3.4"
+    "mongoose": "^9.4.1",
+    "response-time": "^2.3.4",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
