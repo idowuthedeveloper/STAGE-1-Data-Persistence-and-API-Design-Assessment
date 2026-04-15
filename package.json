@@ -1,0 +1,23 @@
+{
+  "name": "STAGE 1 Data Persistence and API Design Assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "response-time": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
