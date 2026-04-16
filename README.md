@@ -68,7 +68,7 @@ This project was developed as part of the Stage 1 Data Persistence and API Desig
    npm start
    ```
 
-The server will run on `http://localhost:5000` (or the port specified in .env).
+The server will run on `https://stage-1-data-persistence-and-api-design-assessme-production.up.railway.app/` (or the port specified in .env).
 
 ## API Endpoints
 
@@ -227,7 +227,7 @@ STAGE 1 Data Persistence and API Design Assessment/
 No unit tests are currently included in the project. You can test the API using tools like Postman, curl, or Thunder Client in VS Code. Example curl command for creating a profile:
 
 ```bash
-curl -X POST http://localhost:5000/api/profiles \
+curl -X POST https://stage-1-data-persistence-and-api-design-assessme-production.up.railway.app/ \
   -H "Content-Type: application/json" \
   -d '{"name": "Alice"}'
 ```
