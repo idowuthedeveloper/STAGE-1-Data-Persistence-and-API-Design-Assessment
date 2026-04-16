@@ -3,7 +3,6 @@ import nationalizeName from "../services/nationalize.js";
 const processNationality = async (req, res) => {
   try {
     const data = await nationalizeName(req.body.name);
-    console.log(data);
 
     if (data.country.length === 0 || data.count === 0) {
       return res.status(502).json({
