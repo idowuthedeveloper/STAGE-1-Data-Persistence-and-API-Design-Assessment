@@ -3,7 +3,6 @@ import agifyName from "../services/agify.js";
 const processAge = async (req, res) => {
   try {
     const data = await agifyName(req.body.name);
-    console.log(data);
 
     if (data.age === null || data.count === 0) {
       return res.status(502).json({

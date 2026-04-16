@@ -75,7 +75,7 @@ const newProfile = async (req, res) => {
       created_at: profile.created_at,
     };
 
-    return res.status(200).json({ status: "success", data });
+    return res.status(201).json({ status: "success", data });
   } catch (error) {
     return res.json({ status: "error", message: error.message }); // Handle unexpected errors
   }

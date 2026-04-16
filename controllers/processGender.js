@@ -26,4 +26,4 @@ const processGender = async (req, res) => {
   }
 };
 
-export default processGender; // Export middleware for route handling
+export default processGender;
