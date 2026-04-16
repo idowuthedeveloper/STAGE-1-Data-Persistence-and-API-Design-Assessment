@@ -30,18 +30,11 @@ export const getAllProfiles = async (req, res) => {
         };
       });
 
-      // const data = {
-      //   count: filteredProfilesCount,
-      //   data: filteredProfiles,
-      // };
-
-      return res
-        .status(200)
-        .json({
-          status: "success",
-          count: filteredProfilesCount,
-          data: filteredProfiles,
-        });
+      return res.status(200).json({
+        status: "success",
+        count: filteredProfilesCount,
+        data: filteredProfiles,
+      });
     }
 
     let profiles = await Profile.find();
